@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>fly high</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/bird.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body id="asd">
+    <nav>
+        <a href="home.html">Home </a>
+        <a href="about.html">About </a>
+        <a href="contact.html">Contact </a>
+    </nav>
+
+    <div class="content">
+        <h1 onclick="this.innerHTML = 'Ooops!'">Click on this text!</h1>
+
+        <p id="paragraph1">javascript class</p>
+
+        <img id="image" src="images/bird2.jpg">
+        <div>
+            <button id="answer" onclick="document.getElementById('paragraph1').innerHTML = 'Hello Java!'">i
+                agree</button>
+        </div>
+
+        <div>
+            <img id="on" src="images/bulb2.jpg">
+
+        </div>
+        <br>
+        <div>
+            <button id="answer" onclick="document.getElementById('on').src = 'images/bulb.jpg'">on bulb</button>
+        </div>
+        <br>
+        <div>
+            <button id="alert" onclick="window.alert('be calm!')">pup up</button>
+        </div>
+
+        <div>
+            <button onclick='ChangeImage("background-image: url(images/background.jpg)")'>change background
+                image</button>
+        </div>
+    </div>
+
+
+    <script>
+        function ChangeImage(item) {
+            document.getElementById('asd').style = item;
+        }
+
+        document.getElementById("paragraph1").innerHTML = "Hello World!";
+        document.getElementById("image").src = "images/bird.jpg";
+    </script>
+</body>
+
+</html>

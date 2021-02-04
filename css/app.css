@@ -1,0 +1,20 @@
+body {
+  background-image: url("../images/background2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content{
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: green;
+    padding: 15px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
